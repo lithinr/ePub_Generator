@@ -4,24 +4,24 @@ import shutil
 if __name__ == '__main__':
     
     #Path where the epub folder needs to be created
-    epubbookpath = "C:/Users/lithi/OneDrive/Desktop"
+    epubbookpath = "C:/Users/<>"
     #Title
-    titleofthebook = "നാടന്‍ പ്രേമം"
-    titleinenglish ="Naadan Premam"
+    titleofthebook = "Title of the book(In native language)"
+    titleinenglish ="Title of the book(In English)"
     #Auther
-    autherofthebook = "എസ്‌.കെ. പൊറ്റക്കാട്‌"
+    autherofthebook = "Auther of the book"
     #Publisher 
-    publisherofthebook = "Mathrubhoomi Books"
+    publisherofthebook = "Publisher of the book
     #language
-    languageofthebook = "ml"
+    languageofthebook = "" # ml = Malayalam, en= English
     #Unique id
-    uniqueidofthebook ="015ffaec-9340-42f8-b163-a0c5ab7d0611"
+    uniqueidofthebook ="unique id" #eg : 015ffaec-9340-42f8-b163-a0c5ab7d0611
     #bookstructure
     bookstructure = ["title","prasthavana","chapter01","chapter02","chapter03","chapter04","chapter05","chapter06","chapter07","chapter08","chapter09","chapter10","chapter11","chapter12","chapter13","chapter14","chapter15","chapter16","chapter17","chapter18","chapter19"]
     #chapter names (size should match to bookstructure)
     bookchapternames = [titleofthebook,"പ്രസ്താവന","I","II","III","IV","V","VI","VII","VIII","IX","X","I","II","III","IV","V","VI","VII","VIII","IX"]
-    #path the cover image is stored
-    coverimagepath = "C:/Users/lithi/My Drive/[04] Personal projects/[04] Epub creations/Naadan_Premam/cover.jpg"
+    #path where cover image is stored
+    coverimagepath = "<>/cover.jpg" 
 
 
 
